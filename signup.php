@@ -8,24 +8,27 @@ email: eduardo.lopezarce@gmail.com
 <html xmlns="http://www.w3.org/1999/xhtml"> 
     <!--========START HEAD========-->   
     <head>
-        <!--========START META========-->
-        <meta name = "description" content="Spadia Engineering develops low cost myoelectric prostheses to help physically challenged individuals to adapt to their environment.">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />   
+        <!--========START META========-->   
+        <meta name = "description" content="Kinesic is an electronics platform based on easy-to-use hardware and software for acquiring biosignals such as ECG, EMG, and EEG in order to develop interactive smart applications for the world of wearables and the Internet of Things.">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />       
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--=========FAVICON=============--> 
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-        <!--========START TITLE========-->    
+        <link rel="icon" href="images/icon.ico" type="image/x-icon" />
+        <!--========START TITLE========-->      
         <title>
-            Spadia Engineering  | Pre-order
+            Kinesic  | Experts in Human-System Interaction
         </title>
         <!--========LINK TO CSS STYLESHEET========-->
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/plot.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
         <!--==========LINK TO GOOGLE FONTS==============-->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <!--========CALL JQUERY, JQUERY UI AND JQUERY FILES========-->  
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <!--========CALL JQUERY, JQUERY UI AND JQUERY FILES========-->
         <script type ="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
         <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+        <script language="javascript" type="text/javascript" src="jquery.js"></script>
+        <script language="javascript" type="text/javascript" src="jquery.flot.js"></script>
     </head>
     <!--========START BODY========-->
     <body> 
@@ -43,18 +46,23 @@ email: eduardo.lopezarce@gmail.com
 
         <!--========LOGO, TOP MENU AND FLAGS========-->
         <table id = "tabmenu" align="center"><tr>
-          <!--========LOGO========-->
-          <td width="15%"><div class="logo">
-            <a href="index.html"><img src="images/logo.png" title="Home" alt="Home" ></a>
-          </div></td><!--END LOGO-->
-          <!--========TOP MENU========-->
-          <td width ="65%" valign="center"><ul id ="navmenu">
-            <li><a href="awards.html">Awards & Publications</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul></td><!--END TOP MENU-->
+            <!--========LOGO========-->
+            <td width="15%"><div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" title="Home" alt="Home">
+                    <div id = "logo_text">
+                        Kinesic
+                    </div>
+                </a>
+            </div></td><!--END LOGO-->
+            <!--========TOP MENU========-->
+            <td width ="65%" valign="center"><ul id ="navmenu">
+                <li><a href="awards.html">Awards & Publications</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul></td><!--END TOP MENU-->
             <!--=======PRE-ORDER BUTTON=====-->
             <td width ="15%" valign="center"><ul>
-                <li><a class = "preorder" href = "preorder.php">Pre-order now!</a>
+                <li><a class = "preorder" href = "signup.php">Sign up now!</a>
             </ul></td><!--END PRE-ORDER BUTTON-->
         </tr></table><!--END LOGO AND TOP MENU-->
 
