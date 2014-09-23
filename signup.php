@@ -186,26 +186,29 @@ email: eduardo.lopezarce@gmail.com
 ?>
         <!--============SUBFOOTER===========-->
         <div class = "subfooter" width ="100%">
-              <p>
-                <a class="facebook"  href="https://www.facebook.com/spadia.engineering" alt="Facebook" title="Facebook">
-                  <img src="images/facebook.png"/>
-                  <img src="images/facebook2.png" id ="facebook"/>
-                </a>
-                <a class="youtube" href="http://www.youtube.com/channel/UCso-N4HSArLndG_XXOiJcKg" alt="Youtube" title="Youtube">
-                  <img src="images/youtube.png"/>
-                  <img src="images/youtube2.png" id ="youtube"/>
-                </a>
-                <a class="linkedin" href="https://www.linkedin.com/company/spadia-engineering" alt="LinkedIn" title="LinkedIn">
-                  <img src="images/linkedin.png"/>
-                  <img src="images/linkedin2.png" id ="linkedin"/>
-                </a>
-                <a class="twitter" href="https://twitter.com/spadiaLTD" alt="Twitter" title="Twitter">
-                  <img src="images/twitter.png"/>
-                  <img src="images/twitter2.png" id ="twitter"/>
-                </a>
-              </p>
-          Spadia Engineering Ltd., United Kingdom. 2014.
+                    <p>
+                        <a class="facebook"  href="#" alt="Facebook" title="Facebook">
+                            <img src="images/facebook.png"/>
+                            <img src="images/facebook2.png" id ="facebook"/>
+                        </a>
+                        <a class="youtube" href="#" alt="Youtube" title="Youtube">
+                            <img src="images/youtube.png"/>
+                            <img src="images/youtube2.png" id ="youtube"/>
+                        </a>
+                        <a class="linkedin" href="#" alt="LinkedIn" title="LinkedIn">
+                            <img src="images/linkedin.png"/>
+                            <img src="images/linkedin2.png" id ="linkedin"/>
+                        </a>
+                        <a class="twitter" href="#" alt="Twitter" title="Twitter">
+                            <img src="images/twitter.png"/>
+                            <img src="images/twitter2.png" id ="twitter"/>
+                        </a>
+                    </p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Kinesic Ltd., United Kingdom. 2014.
         </div>
+        
         <script src="js/functions.js"></script>
 
     </body>
