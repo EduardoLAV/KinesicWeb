@@ -9,23 +9,26 @@ email: eduardo.lopezarce@gmail.com
 	<!--========START HEAD========-->		
 	<head>
 		<!--========START META========-->	
-		<meta name = "description" content="Spadia Engineering develops low cost myoelectric prostheses to help physically challenged individuals to adapt to their environment.">
+		<meta name = "description" content="Kinesic is an electronics platform based on easy-to-use hardware and software for acquiring biosignals such as ECG, EMG, and EEG in order to develop interactive smart applications for the world of wearables and the Internet of Things.">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />		
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--=========FAVICON=============--> 
-		<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="images/icon.ico" type="image/x-icon" />
 		<!--========START TITLE========-->		
 		<title>
-			Spadia Engineering  | Awards & Publications
+			Kinesic | Awards & Publications
 		</title>
 		<!--========LINK TO CSS STYLESHEET========-->
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/plot.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<!--==========LINK TO GOOGLE FONTS==============-->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		<!--========CALL JQUERY, JQUERY UI AND JQUERY FILES========-->	
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<!--========CALL JQUERY, JQUERY UI AND JQUERY FILES========-->
 		<script type ="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 		<script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+		<script language="javascript" type="text/javascript" src="jquery.js"></script>
+		<script language="javascript" type="text/javascript" src="jquery.flot.js"></script>
 	</head>
 	<!--========START BODY========-->
 	<body>
@@ -43,16 +46,21 @@ email: eduardo.lopezarce@gmail.com
 		<table id = "tabmenu" align="center"><tr>
 			<!--========LOGO========-->
 			<td width="15%"><div class="logo">
-				<a href="index.html"><img src="images/logo.png" title="Home" alt="Home" ></a>
+				<a href="#">
+					<img src="images/logo.png" title="Home" alt="Home">
+					<div id = "logo_text">
+						Kinesic
+					</div>
+				</a>
 			</div></td><!--END LOGO-->
 			<!--========TOP MENU========-->
 			<td width ="65%" valign="center"><ul id ="navmenu">
-				<li><a href="awards.html" style = "color: #00a8cb;">Awards & Publications</a></li>
+				<li><a href="awards.html" style = "color: #fff;">Awards & Publications</a></li>
 				<li><a href="contact.html">Contact Us</a></li>
 			</ul></td><!--END TOP MENU-->
 			<!--=======PRE-ORDER BUTTON=====-->
 			<td width ="15%" valign="center"><ul>
-				<li><a class = "preorder" href = "preorder.php">Pre-order now!</a>
+				<li><a class = "signUp" href = "signup.php">Sign up now!</a>
 			</ul></td><!--END PRE-ORDER BUTTON-->
 		</tr></table><!--END LOGO AND TOP MENU-->
 
@@ -65,7 +73,7 @@ email: eduardo.lopezarce@gmail.com
 		<div class = "mainContainer">
 			<div id ="contactText">
 				<div class ="p1">Awards & Publications</div>
-				<div class ="p2">The awards received and published articles are not our main motivation, but it's very gratifying when your work and research is recognized internationally.<br/><br/>The publications and awards received by our leaders and Spadia Engineering members are presented below.
+				<div class ="p2">The awards received and published articles are not our main motivation, but it's very gratifying when your work and research is recognized internationally.<br/><br/>The publications and awards received by our leaders and Kinesic members are presented below.
 				</div><br/><br/><br/><br/>
 				<div class ="p1">Awards</div>
 				<div class ="p2">
@@ -79,21 +87,21 @@ email: eduardo.lopezarce@gmail.com
 				<div class ="p1">Publications</div>
 				<div class ="p2">
 					<ul style = "margin-left: 18px;">
-						<li><b>E. López-Arce</b>, R.Q. Fuentes-Aguilar, I. Figueroa-García, and A. García-González. <br/>
+						<li>E. López-Arce, R.Q. Fuentes-Aguilar, I. Figueroa-García, and A. García-González. <br/>
 						<i>Analysis and Comparison of Classification methods in a Brain-Machine Interface.</i> <br/>
 						In: Human-Computer Systems Interaction: Backgrounds and Applications 3. Advances in Intelligent Systems and Computing Volume 300, 2014.<br/>
 						pp 63-73. <br/>
 						Springer International Publishing<br/>
 						Digital Object Identifier: <a href="http://link.springer.com/chapter/10.1007%2F978-3-319-08491-6_6">10.1007/978-3-319-08491-6_6</a><br/><br/>
 
-						<li><b>E. López-Arce Vivas</b>, A. García-González, I. Figueroa, and R. Fuentes. <br/>
+						<li>E. López-Arce Vivas, A. García-González, I. Figueroa, and R. Fuentes. <br/>
 						<i>Discrete Wavelet Transform and ANFIS Classifier for Brain-Machine Interface based on EEG.</i> <br/>
 						In: IEEE International Conference on Human System Interaction, 2013. <br/>
 						pp 137-144.<br/>
 						Conference Location: Sopot.<br/>
 						Digital Object Identifier: <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6577814">10.1109/HSI.2013.6577814</a><br/><br/>
 								
-						<li><b>E. López-Arce Vivas</b>, A. García-González, F. Galindo, and V. Sánchez-González.  <br/>
+						<li>E. López-Arce Vivas, A. García-González, F. Galindo, and V. Sánchez-González.  <br/>
 						<i>Algorithm to detect six basic commands by the analysis of electroencephalographic and electrooculographic signals.</i> <br/>
 						In: IEEE RAS & EMBS International Conference on Biomedical Robotics and Biomechatronics, 2012. <br/>
 						pp 189-194.<br/>
@@ -107,24 +115,26 @@ email: eduardo.lopezarce@gmail.com
 		<!--============SUBFOOTER===========-->
 		<div class = "subfooter" width ="100%">
 					<p>
-						<a class="facebook"  href="https://www.facebook.com/spadia.engineering" alt="Facebook" title="Facebook">
+						<a class="facebook"  href="#" alt="Facebook" title="Facebook">
 							<img src="images/facebook.png"/>
 							<img src="images/facebook2.png" id ="facebook"/>
 						</a>
-						<a class="youtube" href="http://www.youtube.com/channel/UCso-N4HSArLndG_XXOiJcKg" alt="Youtube" title="Youtube">
+						<a class="youtube" href="#" alt="Youtube" title="Youtube">
 							<img src="images/youtube.png"/>
 							<img src="images/youtube2.png" id ="youtube"/>
 						</a>
-						<a class="linkedin" href="https://www.linkedin.com/company/spadia-engineering" alt="LinkedIn" title="LinkedIn">
+						<a class="linkedin" href="#" alt="LinkedIn" title="LinkedIn">
 							<img src="images/linkedin.png"/>
 							<img src="images/linkedin2.png" id ="linkedin"/>
 						</a>
-						<a class="twitter" href="https://twitter.com/spadiaLTD" alt="Twitter" title="Twitter">
+						<a class="twitter" href="#" alt="Twitter" title="Twitter">
 							<img src="images/twitter.png"/>
 							<img src="images/twitter2.png" id ="twitter"/>
 						</a>
 					</p>
-			Spadia Engineering Ltd., United Kingdom. 2014.
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Kinesic Ltd., United Kingdom. 2014.
 		</div><!--
 
 
